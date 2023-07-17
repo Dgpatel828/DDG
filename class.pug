@@ -1,0 +1,55 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style 
+        include ../static/style.css 
+        include ../static/stylecontact.css 
+        //- include ../static/about.css
+        include ../static/class.css
+
+block content 
+    
+
+    section#classsection 
+        h1 Class Information
+        p#intro Welcome to the Class Information page of DG Dance Academy! Here, you will find all the essential details about our dance classes to help you choose the perfect program for your dance journey.
+        div.cardclass
+            h3 Class Schedule
+            div.card-box-class
+                div.card-content
+                    p Our class schedule is designed to accommodate dancers of various ages and skill levels. We offer classes throughout the week, including evenings and weekends, to ensure flexibility and convenience for our students. Please refer to our schedule for specific class timings and availability.
+        div.cardclass
+            h3 Class Levels
+            div.card-box
+                div.card-content
+                    p We provide classes for dancers of all levels, from beginners to advanced. Our curriculum is carefully structured to cater to each dancer's progression and ensure a well-rounded education. Whether you're taking your first steps in dance or aiming to refine your skills, we have the appropriate level for you.
+        div.cardclass 
+            h3 Dance Styles
+            div.card-box
+                div.card-content
+                    p DG Dance Academy offers a diverse range of dance styles to explore and master. Our expert instructors teach ballet, jazz, hip-hop, contemporary, tap, and more. Each style has its unique techniques, movement vocabulary, and artistic expressions. You have the flexibility to choose the styles that resonate with your interests and goals.
+        div.cardclass 
+            h3 Age Groups
+            div.card-box
+                div.card-content
+                    p We welcome dancers of all ages! Our classes are categorized into age groups to provide an age-appropriate learning environment and foster a sense of camaraderie among peers. We offer classes for children, teenagers, and adults, ensuring that everyone can find a class suited to their specific needs and aspirations.
+        div.cardclass 
+            h3 Registration
+            div.card-box
+                div.card-content
+                    p To enroll in our classes, simply complete the registration process on our website or visit our academy in person. We recommend registering early to secure your spot as class sizes may be limited. Our friendly staff is always available to assist you with any registration-related inquiries.
+        div.cardclass 
+            h3 Attire and Equipment
+            div.card-box
+                div.card-content
+                    p Proper dance attire and equipment are essential for a productive and safe dance experience. Details regarding the required attire, shoes, and any additional equipment specific to each dance style can be found on our website or provided upon registration. We prioritize the comfort and safety of our dancers and ensure they have the necessary tools for success.
+        div.cardclass-last 
+            h3 Trial Classes
+            div.card-box-class
+                div.card-content
+                    p If you're uncertain which class or style is right for you, we offer trial classes for new students. This gives you the opportunity to experience a class firsthand and make an informed decision. Please check our website or contact our office to inquire about trial class availability.
+
+        p#intro We invite you to embark on an exciting dance journey with DG Dance Academy. Whether you're looking to pursue dance professionally or simply enjoy the art form as a hobby, our classes provide a supportive and inspiring environment for you to grow and thrive. Should you have any questions or need further assistance, please don't hesitate to reach out to our dedicated team. We look forward to dancing with you!

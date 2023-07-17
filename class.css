@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    font-size: 45px;
+    padding: 15px 0px;
+}
+#intro{
+    margin: 40px;
+    text-align: center;
+    font-size: larger;
+
+}
+#classsection{
+    background-color: cornsilk;
+    height: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 25px;
+    
+}
+.cardclass{
+    border: 2px solid black;
+    border-radius: 8px;
+    display: inline-table;
+    height: 200px;
+    width: 604px;
+    text-align: center;
+    margin: 29px;
+    padding: 17px;
+    background-color: rgb(230, 210, 161);
+    
+}
+.cardclass-last{
+    border:2px solid black;
+    border-radius: 8px;
+    margin: 29px;
+    padding: 17px;
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 210, 161);
+}
+.card-content{
+    padding: 10px;
+    /* padding: 20%; */
+}

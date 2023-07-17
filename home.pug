@@ -1,0 +1,59 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style 
+        include ../static/style.css 
+
+block content 
+    
+
+    section#introsection 
+        div#h1   Welcome to DG Dance Academy 
+        div#para
+                p
+                    
+                    p Welcome to DG Dance Academy's website, your gateway to a world of dance. 
+                    p Explore our diverse dance programs, experienced instructors, and vibrant community. 
+                    p Choose from ballet, jazz, hip-hop, contemporary, tap, and more. 
+                    p Join our close-knit community, showcase your skills, and build lifelong friendships. 
+                    p Access schedules, registration, and updates. 
+                    p Discover your potential, ignite your passion, and let your spirit soar. 
+                    p Welcome to DG Dance Academy, where dreams come alive through dance!
+
+    section#missionsection
+        h2 Our Mission
+        div.card 
+            h3 Nurturing Artistic Excellence
+            div.card-box
+                div.card-img 
+                    img(src="/static/image/1.webp")
+                div.card-content
+                    p At DG Dance Academy, our mission is to inspire excellence in dance through exceptional training, guidance, and resources. We empower students to reach their highest potential, cultivating a strong foundation and a lifelong love for dance.
+
+
+        div.card 
+            h3 Fostering Personal Growth
+            div.card-box
+                div.card-img 
+                    img(src="/static/image/2.jpeg")
+                div.card-content
+                    p We believe in the transformative power of creativity. Our mission is to create a nurturing environment where dancers can explore their artistic voices, take risks, and express themselves authentically. We ignite the spark of creativity in every dancer, allowing them to discover new possibilities and develop their distinct style.
+
+
+        div.card 
+            h3 Building a Vibrant Dance Community
+            div.card-box
+                div.card-img 
+                    img(src="/static/image/3.jpg")
+                div.card-content
+                    p Our Academy is dedicated to building a vibrant dance community. We foster connections and a sense of belonging among our dancers, creating a supportive and collaborative environment. Through teamwork, respect, and camaraderie, we celebrate achievements and promote the power of dance to bring people together.
+    section#sponsorssection
+        h2 Our Sponsors
+        div#Sponsors
+            img(src="/static/image/logo1.png", alt="logo1",class="Splogo")
+            img(src="/static/image/logo2.webp", alt="logo2",class="Splogo")
+            img(src="/static/image/logo3.png", alt="logo3",class="Splogo")
+            img(src="/static/image/logo4.jpg", alt="logo4",class="Splogo")

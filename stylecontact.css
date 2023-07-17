@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Carter+One&family=Chela+One&family=Josefin+Sans:wght@100&family=Kalam:wght@300&family=Lobster&family=Patrick+Hand&family=Roboto+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Kaushan+Script&display=swap');
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    padding: 15px 0px;
+}
+
+.container{
+    min-height: 100vh;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: ivory;
+}
+.myInput{
+    width: 40%;
+    padding: 10px;
+    margin: 10px 10px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 15px;
+    text-align: center;
+    background-color: antiquewhite;
+    font-family: 'Kaushan Script', cursive;
+}
+.btn{
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 13px;
+    margin: 20px;
+    background-color: #ffc2c2;
+    font-family: 'Kaushan Script', cursive;
+}
+.btn:hover{
+    background-color: black;
+    color: azure;
+    cursor: pointer;
+}
+h1{
+    font-family: 'Carter One', cursive;
+}
